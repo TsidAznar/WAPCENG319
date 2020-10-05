@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2020-10-08" view-index="0" gantt-divider-location="560" resource-divider-location="300" version="2.8.11" locale="en_CA">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2020-10-20" view-index="0" gantt-divider-location="560" resource-divider-location="300" version="2.8.11" locale="en_CA">
     <description/>
     <view zooming-state="default:3" id="gantt-chart">
         <field id="tpd3" name="Name" width="269" order="0"/>
@@ -52,13 +52,13 @@
         <task id="50" name="4. Coding" color="#ff0033" meeting="false" start="2020-10-26" duration="5" complete="0" thirdDate="2020-10-15" thirdDate-constraint="0" expand="true"/>
         <task id="55" name="Code &amp; Implement Interface Programming" color="#3333ff" meeting="false" start="2020-10-26" duration="5" complete="0" thirdDate="2020-10-23" thirdDate-constraint="0" expand="true"/>
         <task id="57" name="Create Logo &amp; Design" color="#ff0033" meeting="false" start="2020-10-27" duration="3" complete="0" thirdDate="2020-10-23" thirdDate-constraint="0" expand="true"/>
-        <task id="60" name="5. Testing &amp; Formatting" color="#ff0033" meeting="false" start="2020-11-09" duration="5" complete="0" thirdDate="2020-10-23" thirdDate-constraint="0" expand="true"/>
-        <task id="62" name="Code &amp; Implement Interface Formatting" color="#3333ff" meeting="false" start="2020-11-09" duration="5" complete="0" thirdDate="2020-10-30" thirdDate-constraint="0" expand="true"/>
-        <task id="64" name="Testing App(User Experience &amp; Improvements)" color="#3333ff" meeting="false" start="2020-11-11" duration="3" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true"/>
-        <task id="67" name="6. Finalize Project" color="#ff0033" meeting="false" start="2020-11-16" duration="5" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true"/>
-        <task id="71" name="Implement Feedback &amp; Finalize Project Version" color="#3333ff" meeting="false" start="2020-11-16" duration="4" complete="0" thirdDate="2020-11-12" thirdDate-constraint="0" expand="true"/>
-        <task id="73" name="Compile A Master PowerPoint for Presentation" color="#3333ff" meeting="false" start="2020-11-18" duration="3" complete="0" thirdDate="2020-11-12" thirdDate-constraint="0" expand="true"/>
-        <task id="76" name="Present Project to Class" color="#66ffff" meeting="false" start="2020-11-19" duration="2" complete="0" thirdDate="2020-11-12" thirdDate-constraint="0" expand="true"/>
+        <task id="60" name="5. Testing &amp; Formatting" color="#ff0033" meeting="false" start="2020-11-02" duration="5" complete="0" thirdDate="2020-10-23" thirdDate-constraint="0" expand="true"/>
+        <task id="62" name="Code &amp; Implement Interface Formatting" color="#3333ff" meeting="false" start="2020-11-02" duration="5" complete="0" thirdDate="2020-10-30" thirdDate-constraint="0" expand="true"/>
+        <task id="64" name="Testing App(User Experience &amp; Improvements)" color="#3333ff" meeting="false" start="2020-11-04" duration="3" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true"/>
+        <task id="67" name="6. Finalize Project" color="#ff0033" meeting="false" start="2020-11-09" duration="5" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true"/>
+        <task id="71" name="Implement Feedback &amp; Finalize Project Version" color="#3333ff" meeting="false" start="2020-11-09" duration="4" complete="0" thirdDate="2020-11-12" thirdDate-constraint="0" expand="true"/>
+        <task id="73" name="Compile A Master PowerPoint for Presentation" color="#3333ff" meeting="false" start="2020-11-11" duration="3" complete="0" thirdDate="2020-11-12" thirdDate-constraint="0" expand="true"/>
+        <task id="76" name="Present Project to Class" color="#66ffff" meeting="false" start="2020-11-12" duration="2" complete="0" thirdDate="2020-11-12" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
