@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2020-10-20" view-index="0" gantt-divider-location="560" resource-divider-location="300" version="2.8.11" locale="en_CA">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2020-10-20" view-index="0" gantt-divider-location="786" resource-divider-location="300" version="2.8.11" locale="en_CA">
     <description/>
     <view zooming-state="default:3" id="gantt-chart">
-        <field id="tpd3" name="Name" width="269" order="0"/>
-        <field id="tpd4" name="Begin date" width="144" order="1"/>
-        <field id="tpd5" name="End date" width="143" order="2"/>
-        <option id="color.recent">
-            <![CDATA[#66ffff #3333ff #ff0033 #f4f4f4]]>
-        </option>
+        <field id="tpd3" name="Name" width="344" order="0"/>
+        <field id="tpd4" name="Begin date" width="219" order="1"/>
+        <field id="tpd5" name="End date" width="219" order="2"/>
+        <option id="color.recent"><![CDATA[#66ffff #3333ff #ff0033 #f4f4f4]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Name" width="210" order="0"/>
@@ -49,9 +47,9 @@
         <task id="36" name="3. Implementing Code" color="#ff0033" meeting="false" start="2020-10-19" duration="5" complete="0" thirdDate="2020-10-02" thirdDate-constraint="0" expand="true"/>
         <task id="42" name="Functionality, Data Formating &amp; Storage" color="#3333ff" meeting="false" start="2020-10-19" duration="1" complete="0" thirdDate="2020-10-16" thirdDate-constraint="0" expand="true"/>
         <task id="45" name="Coding &amp; Log-in Implementation" color="#3333ff" meeting="false" start="2020-10-19" duration="5" complete="0" thirdDate="2020-10-16" thirdDate-constraint="0" expand="true"/>
-        <task id="50" name="4. Coding" color="#ff0033" meeting="false" start="2020-10-26" duration="5" complete="0" thirdDate="2020-10-15" thirdDate-constraint="0" expand="true"/>
-        <task id="55" name="Code &amp; Implement Interface Programming" color="#3333ff" meeting="false" start="2020-10-26" duration="5" complete="0" thirdDate="2020-10-23" thirdDate-constraint="0" expand="true"/>
-        <task id="57" name="Create Logo &amp; Design" color="#ff0033" meeting="false" start="2020-10-27" duration="3" complete="0" thirdDate="2020-10-23" thirdDate-constraint="0" expand="true"/>
+        <task id="50" name="4. UI, Database, API Implementation" color="#ff0033" meeting="false" start="2020-10-26" duration="5" complete="0" thirdDate="2020-10-15" thirdDate-constraint="0" expand="true"/>
+        <task id="55" name="UI Implementation" color="#3333ff" meeting="false" start="2020-10-26" duration="5" complete="0" thirdDate="2020-10-23" thirdDate-constraint="0" expand="true"/>
+        <task id="57" name="API implementation" color="#ff0033" meeting="false" start="2020-10-27" duration="3" complete="0" thirdDate="2020-10-23" thirdDate-constraint="0" expand="true"/>
         <task id="60" name="5. Testing &amp; Formatting" color="#ff0033" meeting="false" start="2020-11-02" duration="5" complete="0" thirdDate="2020-10-23" thirdDate-constraint="0" expand="true"/>
         <task id="62" name="Code &amp; Implement Interface Formatting" color="#3333ff" meeting="false" start="2020-11-02" duration="5" complete="0" thirdDate="2020-10-30" thirdDate-constraint="0" expand="true"/>
         <task id="64" name="Testing App(User Experience &amp; Improvements)" color="#3333ff" meeting="false" start="2020-11-04" duration="3" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true"/>
