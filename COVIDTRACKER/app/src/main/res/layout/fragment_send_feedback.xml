@@ -7,7 +7,7 @@
     tools:context=".SendFeedbackFragment">
 
         <!--Testing Different Emails for sending Feedback-->
-            <!--Email needs to be created for users to send feedback for issues they are having-->
+            <!--Team's Email needs to be created for users to send feedback for issues they are having-->
 
     <TextView
         android:id="@+id/sendTo"
