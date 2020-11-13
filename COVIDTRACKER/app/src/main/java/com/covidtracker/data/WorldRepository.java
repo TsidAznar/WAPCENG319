@@ -13,8 +13,8 @@ import com.covidtracker.data.network.UserNetworkDataSource;
 import com.covidtracker.model.ServiceRequest;
 
 /*
- * This class responsible for handling data operations. This is the mediator between different
- * data sources (persistent model, web service, cache, etc.)
+ * This class is responsible for handling data operations. This is the mediator between different
+ * data sources
  */
 public class WorldRepository {
     private static final String LOG_TAG = WorldRepository.class.getSimpleName();

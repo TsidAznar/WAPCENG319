@@ -15,8 +15,8 @@ import com.covidtracker.model.ServiceRequest;
 import java.util.List;
 
 /*
- * This class responsible for handling data operations. This is the mediator between different
- * data sources (persistent model, web service, cache, etc.)
+ * This class is responsible for handling data operations. This is the mediator between different
+ * data sources
  */
 public class StateRepository {
     private static final String LOG_TAG = StateRepository.class.getSimpleName();

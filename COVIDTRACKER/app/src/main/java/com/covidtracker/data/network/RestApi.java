@@ -42,7 +42,7 @@ public interface RestApi {
     //countries/USA
     //yesterday/USA
 
-    //
+    //keeps track
 
     //Observable<List<ServiceResponse>> getStates();
 }
