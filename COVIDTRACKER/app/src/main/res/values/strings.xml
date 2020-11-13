@@ -16,6 +16,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     Welcome to the COVID-19 Tracker Application.
     <string name="welcome">Welcome to the COVID-19 Tracker Application.</string>
+    <string name="creation">Created by WAP Team</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="sort_ascending">Sort Ascending</string>
     <string name="sort_descending">Sort Descending</string>
