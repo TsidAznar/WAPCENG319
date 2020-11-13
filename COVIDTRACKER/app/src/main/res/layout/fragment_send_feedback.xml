@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".SendFeedbackFragment">
 
+        <!--Testing Different Emails for sending Feedback-->
+
     <TextView
         android:id="@+id/sendTo"
         android:layout_width="0dp"
