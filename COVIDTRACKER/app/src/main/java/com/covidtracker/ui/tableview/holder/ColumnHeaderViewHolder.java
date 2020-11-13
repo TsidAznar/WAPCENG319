@@ -39,7 +39,7 @@ public class ColumnHeaderViewHolder extends AbstractSorterViewHolder {
         column_header_textview.setGravity(COLUMN_TEXT_ALIGNS[pColumnPosition] | Gravity
                 .CENTER_VERTICAL);
 
-        // set textdata
+        // set text-data
         column_header_textview.setText(pColumnHeaderModel.getData());
 
         // adjusting and measuring again
