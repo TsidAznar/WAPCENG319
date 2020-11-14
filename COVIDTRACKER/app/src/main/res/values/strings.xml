@@ -14,7 +14,7 @@
     <string name="home_second">Home Second</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="welcome">Welcome to the COVID-19 Tracker Application.</string>
+    <string name="welcome">Welcome to the COVID-19 Tracker Application. This application keeps track of the number of cases world wide and as well as active cases, recovered, deaths, critical and the number of people that were  tested.</string>
     <string name="creation">Created by WAP Team</string>
     <string name="source">Sources:WHO,JHU</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
