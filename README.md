@@ -9,6 +9,6 @@ It is live data from WHO updated every seconds from their APIs. <br />
 
 # o	Project Developers: 
 •	Rayan Treebhowon N01226282 <br />
-•	Tsidkeenu Aznar N01300801 <br />
+•	Tsidkeenu Aznar N01180428 <br />
 •	Satyam Dalvadi N01333116 <br />
 •	Jagminder Sembi N01300801 <br />
