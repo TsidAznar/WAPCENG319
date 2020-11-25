@@ -82,7 +82,8 @@ public class YourrealcountryFragment extends Fragment {
 
                 for (int i = 0; i < countries.size(); i++) {
                     country_list[i] = countries.get(i).country;
-                    if (countries.get(i).country.equalsIgnoreCase("USA")) {
+                    if (countries.get(i).country.equalsIgnoreCase("Canada")) //Set Canada as Default Country
+                    {
                         j[0] = i;
                     }
                 }
