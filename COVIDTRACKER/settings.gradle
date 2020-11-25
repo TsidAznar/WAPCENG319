@@ -1,2 +1,2 @@
-include ':app'
+include ':COVIDTRACKER'
 rootProject.name = "COVIDTRACKER"
