@@ -26,7 +26,7 @@
     <string name="trackcorona2020">COVID-19 Tracker Application</string>
     <string name="covid_19_worldwide_statistics">COVID-19 Worldwide Statistics</string>
     <string name="world_data">Données Mondiales</string>
-    <string name="your_country">Pays</string>
+    <string name="your_country">Données Stocker</string>
     <string name="your_state">États Unis</string>
     <string name="active_cases">Cas actifs</string>
     <string name="recoveredName">Rétabli(e)</string>
