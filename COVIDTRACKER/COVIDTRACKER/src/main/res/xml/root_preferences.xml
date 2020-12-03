@@ -1,4 +1,6 @@
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/colorchange">
 
     <PreferenceCategory app:title="@string/messages_header">
 
@@ -16,6 +18,23 @@
             app:useSimpleSummaryProvider="true" />
 
     </PreferenceCategory>
+
+    <PreferenceCategory app:title="Theme">
+        <CheckBoxPreference
+            app:title="Red"
+            android:id="@+id/red"/>
+
+        <CheckBoxPreference
+            app:title="Blue"
+            android:id="@+id/blue"/>
+
+        <CheckBoxPreference
+            app:title="Green"
+            android:id="@+id/green"/>
+
+    </PreferenceCategory>
+
+
     <!--
     <PreferenceCategory app:title="@string/sync_header">
 
