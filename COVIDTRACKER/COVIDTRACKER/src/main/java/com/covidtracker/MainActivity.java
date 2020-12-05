@@ -72,8 +72,8 @@ public class MainActivity extends AppCompatActivity {
         final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         builder.setMessage("Do you want to exit the application ?");
         builder.setCancelable(true);
-
-        builder.setNegativeButton("Close",new DialogInterface.OnClickListener() {
+        Toast.makeText(getApplicationContext(),"You are about to exit", Toast.LENGTH_LONG).show();
+        builder.setNegativeButton("No",new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.cancel();
@@ -82,8 +82,11 @@ public class MainActivity extends AppCompatActivity {
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i){
+
                 finish();
+                Toast.makeText(getApplicationContext(),"Exiting", Toast.LENGTH_LONG).show();
             }
+
         });
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
