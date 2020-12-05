@@ -17,39 +17,42 @@
             app:title="@string/reply_title"
             app:useSimpleSummaryProvider="true" />
 
-    </PreferenceCategory>
-
-    <PreferenceCategory app:title="Theme">
-        <CheckBoxPreference
-            app:title="Red"
-            android:id="@+id/red"/>
-
-        <CheckBoxPreference
-            app:title="Blue"
-            android:id="@+id/blue"/>
-
-        <CheckBoxPreference
-            app:title="Green"
-            android:id="@+id/green"/>
-
-    </PreferenceCategory>
-
 
     <!--
-    <PreferenceCategory app:title="@string/sync_header">
+   </PreferenceCategory>
 
-        <SwitchPreferenceCompat
-            app:key="sync"
-            app:title="@string/sync_title" />
+   <PreferenceCategory app:title="Theme">
+       <CheckBoxPreference
+           app:title="Red"
+           android:id="@+id/red"/>
 
-        <SwitchPreferenceCompat
-            app:dependency="sync"
-            app:key="attachment"
-            app:summaryOff="@string/attachment_summary_off"
-            app:summaryOn="@string/attachment_summary_on"
-            app:title="@string/attachment_title" />
+       <CheckBoxPreference
+           app:title="Blue"
+           android:id="@+id/blue"/>
 
-    </PreferenceCategory>
-    -->
+       <CheckBoxPreference
+           app:title="Green"
+           android:id="@+id/green"/>
+
+   </PreferenceCategory>
+   -->
+
+
+
+   <PreferenceCategory app:title="@string/sync_header">
+
+       <SwitchPreferenceCompat
+           app:key="sync"
+           app:title="@string/sync_title" />
+
+       <SwitchPreferenceCompat
+           app:dependency="sync"
+           app:key="attachment"
+           app:summaryOff="@string/attachment_summary_off"
+           app:summaryOn="@string/attachment_summary_on"
+           app:title="@string/attachment_title" />
+
+   </PreferenceCategory>
+
 
 </PreferenceScreen>
