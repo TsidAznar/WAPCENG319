@@ -4,6 +4,8 @@
 
     <PreferenceCategory app:title="@string/messages_header">
 
+
+
         <EditTextPreference
             app:key="signature"
             app:title="@string/signature_title"
@@ -17,7 +19,7 @@
             app:title="@string/reply_title"
             app:useSimpleSummaryProvider="true" />
 
-
+    </PreferenceCategory>
     <!--
    </PreferenceCategory>
 
