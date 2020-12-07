@@ -34,6 +34,7 @@
     <string name="affected_countries">Pays Touchés</string>
     <string name="your_real_country">Votre Pays</string>
     <string name="menu_yourrealcountry">Votre Pays</string>
+    <string name="WHO">World Health Organization</string>
     <string name="todo">TODO</string>
     <string name="critical">Critique</string>
     <string name="total_confirmed_cases">Total des cas confirmés</string>

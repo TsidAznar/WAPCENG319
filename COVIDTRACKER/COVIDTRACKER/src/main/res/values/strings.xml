@@ -27,6 +27,7 @@
     <string name="covid_19_worldwide_statistics">COVID-19 Worldwide Statistics</string>
     <string name="world_data">World Data</string>
     <string name="your_country">Saved Data</string>
+    <string name="WHO">World Health Organization</string>
     <string name="your_state">United States</string>
     <string name="active_cases">Active Cases</string>
     <string name="recoveredName">Recovered</string>
