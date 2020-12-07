@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.nav_view);
         // pass each menu ID
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_yourworld, R.id.nav_yourcountry,R.id.nav_yourrealcountry, R.id.nav_yourstate, R.id.website)
+                R.id.nav_yourworld, R.id.nav_yourcountry,R.id.nav_yourrealcountry, R.id.nav_yourstate, R.id.webView1)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
