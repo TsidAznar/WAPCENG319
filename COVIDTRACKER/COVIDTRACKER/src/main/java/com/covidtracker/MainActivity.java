@@ -2,10 +2,12 @@ package com.covidtracker;
 
 import android.app.Activity;
 import android.content.DialogInterface;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
@@ -19,6 +21,10 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.navigation.NavigationView;
 
+import java.util.Random;
+
+import static com.covidtracker.ui.yourworld.YourworldFragment.hideKeyboardFrom;
+
 public class MainActivity extends AppCompatActivity {
     private static int SPLASH_SCREEN_TIME_OUT=2000;
     private AppBarConfiguration mAppBarConfiguration;
@@ -26,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        View screenView;
+        Button clickMe;
+        int[] color;
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -42,6 +51,22 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
 
         Toast.makeText(getApplicationContext(), "Data Imported Successfully", Toast.LENGTH_SHORT).show();
+
+        color = new int[] {Color.RED, Color.BLUE, Color.GRAY, Color.GREEN, Color.YELLOW, Color.CYAN};
+        screenView =  findViewById(R.id.maintheme);
+        clickMe = (Button) findViewById(R.id.button);
+
+        clickMe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int aryLength = color.length;
+
+                Random random = new Random();
+                int rNum = random.nextInt(aryLength);
+
+                screenView.setBackgroundColor(color[rNum]);
+            }
+        });
     }
     public static void hideKeyboardFrom(Activity activity) {
         InputMethodManager imm = (InputMethodManager) activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
