@@ -28,6 +28,7 @@
     <string name="world_data">Données Mondiales</string>
     <string name="your_country">Données Stocker</string>
     <string name="your_state">États Unis</string>
+    <string name="text_totalCasesName">Total des cas confirmés</string>
     <string name="active_cases">Cas actifs</string>
     <string name="recoveredName">Rétabli(e)</string>
     <string name="total_deceased">Total décédé</string>

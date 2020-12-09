@@ -129,11 +129,10 @@
 
         <TextView
             android:id="@+id/text_totalCasesName"
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="Total Confirmed Cases"
+            android:text="@string/text_totalCasesName"
             android:textColor="#FFFFFF"
             android:textSize="25dp"
             app:layout_constraintBottom_toBottomOf="@+id/text_totalCases"
