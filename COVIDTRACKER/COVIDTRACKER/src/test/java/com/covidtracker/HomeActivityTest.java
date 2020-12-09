@@ -14,7 +14,7 @@ public class HomeActivityTest {
     @Test
     public void onStart() {
         if(!onStartCalled) {
-            System.out.println("OnCreate is being called" +'\n'+ (10*10));
+            System.out.println("OnStart is being called" +'\n'+ (2*3*4));
             onStartCalled = true;
         }
     }
@@ -22,7 +22,7 @@ public class HomeActivityTest {
     @Test
     public void startNextActivity() {
         if(!onStartNextActivityCalled) {
-            System.out.println("OnCreate is being called" +'\n'+ (10*10));
+            System.out.println("OnStartNextActivity is being called" +'\n'+ (1+2+3));
             onStartNextActivityCalled = true;
         }
     }
@@ -30,7 +30,7 @@ public class HomeActivityTest {
     @Test
     public void onStop() {
         if(!onStopCalled) {
-            System.out.println("OnCreate is being called" +'\n'+ (10*10));
+            System.out.println("OnStop is being called" +'\n'+ (3/4));
             onStopCalled = true;
         }
     }
@@ -38,7 +38,7 @@ public class HomeActivityTest {
     @Test
     public void onDestroy() {
         if(!onDestroyCalled) {
-            System.out.println("OnCreate is being called" +'\n'+ (10*10));
+            System.out.println("OnDestroy is being called" +'\n'+ (1+1));
             onDestroyCalled = true;
         }
     }

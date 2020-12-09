@@ -22,7 +22,7 @@ public class MainActivityTest {
     @Test
     public void onCreateOptionsMenu() {
         if(!onCreateOptionCalled) {
-            System.out.println("OnCreateOptionMenu is being called" +'\n'+ (10*10));
+            System.out.println("OnCreateOptionMenu is being called" +'\n'+ (10/10));
             onCreateOptionCalled = true;
         }
     }
