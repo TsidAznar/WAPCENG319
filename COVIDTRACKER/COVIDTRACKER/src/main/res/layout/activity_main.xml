@@ -34,7 +34,7 @@
                 android:textColor="#423E3E"
                 android:gravity="center"
                 android:textSize="13dp"
-                android:text="v2.0/Beta" />
+                android:text="v3.0" />
             <TextView
                 android:id="@+id/logout"
                 android:layout_width="match_parent"
