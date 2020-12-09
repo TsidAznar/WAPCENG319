@@ -104,7 +104,7 @@ public class SendFeedbackFragment extends Fragment {
                                 .getMetrics(displayMetrics);
                         int height = displayMetrics.heightPixels + getNavigationBarHeight();
                         int width = displayMetrics.widthPixels;
-                        String toS = "joshpatra12@protonmail.com";
+                        String toS = "WapTeam@gmail.com";
                         String subS = subject.getText().toString();
                         String mesS = message.getText().toString() + "\n\n\n\n\n\n" + "\nAPI: " + API + "\nDevice: "
                                 + device + "\nModel: "+ model +"\nType:" + type +"\nUser:" + user +
