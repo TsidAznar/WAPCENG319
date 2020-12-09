@@ -23,7 +23,7 @@
         app:navGraph="@navigation/mobile_navigation" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/color"
         android:layout_width="117dp"
         android:layout_height="37dp"
         android:layout_marginBottom="48dp"

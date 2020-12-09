@@ -52,9 +52,10 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(getApplicationContext(), "Data Imported Successfully", Toast.LENGTH_SHORT).show();
 
+        //background color
         color = new int[] {Color.RED, Color.BLUE, Color.GRAY, Color.GREEN, Color.YELLOW, Color.CYAN};
         screenView =  findViewById(R.id.maintheme);
-        clickMe = (Button) findViewById(R.id.button);
+        clickMe = (Button) findViewById(R.id.color);
 
         clickMe.setOnClickListener(new View.OnClickListener() {
             @Override

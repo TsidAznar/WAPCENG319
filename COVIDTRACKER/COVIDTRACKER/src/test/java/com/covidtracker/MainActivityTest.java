@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 public class MainActivityTest {
     private static boolean onCreateCalled;
     private static boolean onCreateOptionCalled;
-    private static boolean onClickCalled;
+    private static boolean onBackPressedCalled;
 
     @Test
     public void onCreate() {
@@ -22,13 +22,17 @@ public class MainActivityTest {
     @Test
     public void onCreateOptionsMenu() {
         if(!onCreateOptionCalled) {
-            System.out.println("OnCreate is being called" +'\n'+ (10*10));
+            System.out.println("OnCreateOptionMenu is being called" +'\n'+ (10*10));
             onCreateOptionCalled = true;
         }
     }
 
     @Test
     public void onBackPressed() {
+        if(!onBackPressedCalled) {
+            System.out.println("OnBackPressed is being called" +'\n'+ (10+10));
+            onBackPressedCalled = true;
+        }
 
     }
 }
