@@ -1,7 +1,8 @@
 # o WAP Team <br />
 # o COVIDTracker App <br />
+Application Goal:<br />
 This application was built in order to track the covid cases around the world. <br />
-Since USA was the center of attention with all the infected and active cases, a section for the states in USA was created in order to track the number of cases registered everyday.<br />
+During this pandemic we saw people with lack of information about COVID-19 and their statistics. So basically we decided to build an application to keep people updated on the world’s statistics and cases live. <br />
 It is live data from WHO updated every seconds from their APIs. <br />
 # o	Project Description: 
 
