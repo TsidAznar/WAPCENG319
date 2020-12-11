@@ -20,6 +20,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.Random;
 
@@ -66,8 +67,15 @@ public class MainActivity extends AppCompatActivity {
                 int rNum = random.nextInt(aryLength);
 
                 screenView.setBackgroundColor(color[rNum]);
+                // Button was clicked/tapped
+                View v= findViewById(R.id.color);
+                String message = "Background color changed";
+                int duration = Snackbar.LENGTH_SHORT;
+
+                showSnackbar(v, message, duration);
             }
         });
+
     }
     public static void hideKeyboardFrom(Activity activity) {
         InputMethodManager imm = (InputMethodManager) activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
@@ -116,5 +124,9 @@ public class MainActivity extends AppCompatActivity {
         });
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
+    }
+    public void showSnackbar(View view, String message, int duration)
+    {
+        Snackbar.make(view, message, duration).show();
     }
 }
