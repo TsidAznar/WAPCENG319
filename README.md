@@ -13,3 +13,5 @@ It is live data from WHO updated every seconds from their APIs. <br />
 •	Tsidkeenu Aznar N01180428 <br />
 •	Satyam Dalvadi N01333116 <br />
 •	Jagminder Sembi N01300801 <br />
+
+GitHub Link: https://github.com/TsidAznar/WAPCENG319 
